@@ -1,4 +1,5 @@
 [tool.pdm]
+[tool.pdm.dev-dependencies]
 
 [project]
 name = "richillcapital-max"
@@ -15,3 +16,5 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-pep517>=1.0"]
 build-backend = "pdm.pep517.api"
+
+[tool.pdm.scripts]
